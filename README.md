@@ -7,7 +7,9 @@ Demo project for integrating with NKOActivityIndicatorView via Swift Package Man
 - Xcode 13.1
 
 ## Dependencies
-- [NKOActivityIndicatorView](https://github.com/nakiostudio/NKOActivityIndicatorView)
+See [Package.resolved](https://github.com/madhikarma/NKOActivityIndicatorViewSPMDemo/blob/main/NKOActivityIndicatorViewSPMDemo.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved) for full list:
+- [NKOActivityIndicatorView](https://github.com/nakiostudio/NKOActivityIndicatorView) 
+  - Note. this is currently [forked](https://github.com/madhikarma/NKOActivityIndicatorView/tree/swiftpm-support) in the `swiftpm-support` branch
 
 ## Setup
 - N/A
