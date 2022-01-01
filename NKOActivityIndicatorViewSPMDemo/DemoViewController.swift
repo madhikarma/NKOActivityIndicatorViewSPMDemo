@@ -5,33 +5,30 @@
 //  Created by Shagun Madhikarmi on 25/09/2021.
 //
 
-import UIKit
 import NKOActivityIndicatorView
-//import MyLib
+import UIKit
 
-class ViewController: UIViewController {
-
+final class DemoViewController: UIViewController {
+    
+    // MARK:- View lifecycle
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        
-//        let myFile = MyLib.MyFile()
-//        print(myFile.message)
-//        myFile.message = "hello"
-//        print(myFile.message)
-        
+
+        // Create a NKOActivityIndicatorView (from the imported NKOActivityIndicatorView library / module)
         let activityIndicatorView = NKOActivityIndicatorView()
         view.addSubview(activityIndicatorView)
+        
+        // Add layout constraints
         activityIndicatorView.translatesAutoresizingMaskIntoConstraints = false
         NSLayoutConstraint.activate([
             activityIndicatorView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             activityIndicatorView.centerYAnchor.constraint(equalTo: view.centerYAnchor),
             activityIndicatorView.heightAnchor.constraint(equalToConstant: 30),
-            activityIndicatorView.widthAnchor.constraint(equalToConstant: 30)
+            activityIndicatorView.widthAnchor.constraint(equalToConstant: 30),
         ])
+        
+        // Show loading
         activityIndicatorView.startAnimating()
     }
-
-
 }
-
