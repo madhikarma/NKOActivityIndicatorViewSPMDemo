@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		ED13B4E526FF5E2900F8D697 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED13B4E426FF5E2900F8D697 /* AppDelegate.swift */; };
 		ED13B4E726FF5E2900F8D697 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED13B4E626FF5E2900F8D697 /* SceneDelegate.swift */; };
-		ED13B4E926FF5E2900F8D697 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED13B4E826FF5E2900F8D697 /* ViewController.swift */; };
+		ED13B4E926FF5E2900F8D697 /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED13B4E826FF5E2900F8D697 /* DemoViewController.swift */; };
 		ED13B4EC26FF5E2900F8D697 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED13B4EA26FF5E2900F8D697 /* Main.storyboard */; };
 		ED13B4EE26FF5E2A00F8D697 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED13B4ED26FF5E2A00F8D697 /* Assets.xcassets */; };
 		ED13B4F126FF5E2A00F8D697 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED13B4EF26FF5E2A00F8D697 /* LaunchScreen.storyboard */; };
@@ -38,7 +38,7 @@
 		ED13B4E126FF5E2900F8D697 /* NKOActivityIndicatorViewSPMDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NKOActivityIndicatorViewSPMDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED13B4E426FF5E2900F8D697 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED13B4E626FF5E2900F8D697 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ED13B4E826FF5E2900F8D697 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED13B4E826FF5E2900F8D697 /* DemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
 		ED13B4EB26FF5E2900F8D697 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ED13B4ED26FF5E2A00F8D697 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED13B4F026FF5E2A00F8D697 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -101,7 +101,7 @@
 			children = (
 				ED13B4E426FF5E2900F8D697 /* AppDelegate.swift */,
 				ED13B4E626FF5E2900F8D697 /* SceneDelegate.swift */,
-				ED13B4E826FF5E2900F8D697 /* ViewController.swift */,
+				ED13B4E826FF5E2900F8D697 /* DemoViewController.swift */,
 				ED13B4EA26FF5E2900F8D697 /* Main.storyboard */,
 				ED13B4ED26FF5E2A00F8D697 /* Assets.xcassets */,
 				ED13B4EF26FF5E2A00F8D697 /* LaunchScreen.storyboard */,
@@ -269,7 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED13B4E926FF5E2900F8D697 /* ViewController.swift in Sources */,
+				ED13B4E926FF5E2900F8D697 /* DemoViewController.swift in Sources */,
 				ED13B4E526FF5E2900F8D697 /* AppDelegate.swift in Sources */,
 				ED13B4E726FF5E2900F8D697 /* SceneDelegate.swift in Sources */,
 			);
@@ -376,7 +376,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -431,7 +431,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
