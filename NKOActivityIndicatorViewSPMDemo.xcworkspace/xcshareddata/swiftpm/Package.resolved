@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "NKOActivityIndicatorView",
+        "repositoryURL": "https://github.com/madhikarma/NKOActivityIndicatorView",
+        "state": {
+          "branch": null,
+          "revision": "31015e83653f46b7dbb0a89746880287973717e0",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

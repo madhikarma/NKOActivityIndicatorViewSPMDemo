@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED13B4E526FF5E2900F8D697 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED13B4E426FF5E2900F8D697 /* AppDelegate.swift */; };
+		ED13B4E726FF5E2900F8D697 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED13B4E626FF5E2900F8D697 /* SceneDelegate.swift */; };
+		ED13B4E926FF5E2900F8D697 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED13B4E826FF5E2900F8D697 /* ViewController.swift */; };
+		ED13B4EC26FF5E2900F8D697 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED13B4EA26FF5E2900F8D697 /* Main.storyboard */; };
+		ED13B4EE26FF5E2A00F8D697 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED13B4ED26FF5E2A00F8D697 /* Assets.xcassets */; };
+		ED13B4F126FF5E2A00F8D697 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED13B4EF26FF5E2A00F8D697 /* LaunchScreen.storyboard */; };
+		ED13B50726FF5E2A00F8D697 /* NKOActivityIndicatorViewSPMDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED13B50626FF5E2A00F8D697 /* NKOActivityIndicatorViewSPMDemoUITests.swift */; };
+		EDB6BC66277ED06400464A83 /* NKOActivityIndicatorView in Frameworks */ = {isa = PBXBuildFile; productRef = EDB6BC65277ED06400464A83 /* NKOActivityIndicatorView */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED13B4F826FF5E2A00F8D697 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED13B4D926FF5E2900F8D697 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED13B4E026FF5E2900F8D697;
+			remoteInfo = NKOActivityIndicatorViewSPMDemo;
+		};
+		ED13B50326FF5E2A00F8D697 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED13B4D926FF5E2900F8D697 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED13B4E026FF5E2900F8D697;
+			remoteInfo = NKOActivityIndicatorViewSPMDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED13B4E126FF5E2900F8D697 /* NKOActivityIndicatorViewSPMDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NKOActivityIndicatorViewSPMDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED13B4E426FF5E2900F8D697 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED13B4E626FF5E2900F8D697 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ED13B4E826FF5E2900F8D697 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED13B4EB26FF5E2900F8D697 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED13B4ED26FF5E2A00F8D697 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED13B4F026FF5E2A00F8D697 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED13B4F226FF5E2A00F8D697 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED13B4F726FF5E2A00F8D697 /* NKOActivityIndicatorViewSPMDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NKOActivityIndicatorViewSPMDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED13B50226FF5E2A00F8D697 /* NKOActivityIndicatorViewSPMDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NKOActivityIndicatorViewSPMDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED13B50626FF5E2A00F8D697 /* NKOActivityIndicatorViewSPMDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NKOActivityIndicatorViewSPMDemoUITests.swift; sourceTree = "<group>"; };
+		ED13B50826FF5E2A00F8D697 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED13B4DE26FF5E2900F8D697 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDB6BC66277ED06400464A83 /* NKOActivityIndicatorView in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED13B4F426FF5E2A00F8D697 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED13B4FF26FF5E2A00F8D697 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED13B4D826FF5E2900F8D697 = {
+			isa = PBXGroup;
+			children = (
+				ED7D91E6277DFCE100941DA4 /* Packages */,
+				ED13B4E326FF5E2900F8D697 /* NKOActivityIndicatorViewSPMDemo */,
+				ED13B50526FF5E2A00F8D697 /* NKOActivityIndicatorViewSPMDemoUITests */,
+				ED13B4E226FF5E2900F8D697 /* Products */,
+				ED5BA56C277906AF0031209F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ED13B4E226FF5E2900F8D697 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED13B4E126FF5E2900F8D697 /* NKOActivityIndicatorViewSPMDemo.app */,
+				ED13B4F726FF5E2A00F8D697 /* NKOActivityIndicatorViewSPMDemoTests.xctest */,
+				ED13B50226FF5E2A00F8D697 /* NKOActivityIndicatorViewSPMDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED13B4E326FF5E2900F8D697 /* NKOActivityIndicatorViewSPMDemo */ = {
+			isa = PBXGroup;
+			children = (
+				ED13B4E426FF5E2900F8D697 /* AppDelegate.swift */,
+				ED13B4E626FF5E2900F8D697 /* SceneDelegate.swift */,
+				ED13B4E826FF5E2900F8D697 /* ViewController.swift */,
+				ED13B4EA26FF5E2900F8D697 /* Main.storyboard */,
+				ED13B4ED26FF5E2A00F8D697 /* Assets.xcassets */,
+				ED13B4EF26FF5E2A00F8D697 /* LaunchScreen.storyboard */,
+				ED13B4F226FF5E2A00F8D697 /* Info.plist */,
+			);
+			path = NKOActivityIndicatorViewSPMDemo;
+			sourceTree = "<group>";
+		};
+		ED13B50526FF5E2A00F8D697 /* NKOActivityIndicatorViewSPMDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED13B50626FF5E2A00F8D697 /* NKOActivityIndicatorViewSPMDemoUITests.swift */,
+				ED13B50826FF5E2A00F8D697 /* Info.plist */,
+			);
+			path = NKOActivityIndicatorViewSPMDemoUITests;
+			sourceTree = "<group>";
+		};
+		ED5BA56C277906AF0031209F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED7D91E6277DFCE100941DA4 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED13B4E026FF5E2900F8D697 /* NKOActivityIndicatorViewSPMDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED13B50B26FF5E2A00F8D697 /* Build configuration list for PBXNativeTarget "NKOActivityIndicatorViewSPMDemo" */;
+			buildPhases = (
+				ED13B4DD26FF5E2900F8D697 /* Sources */,
+				ED13B4DE26FF5E2900F8D697 /* Frameworks */,
+				ED13B4DF26FF5E2900F8D697 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NKOActivityIndicatorViewSPMDemo;
+			packageProductDependencies = (
+				EDB6BC65277ED06400464A83 /* NKOActivityIndicatorView */,
+			);
+			productName = NKOActivityIndicatorViewSPMDemo;
+			productReference = ED13B4E126FF5E2900F8D697 /* NKOActivityIndicatorViewSPMDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED13B4F626FF5E2A00F8D697 /* NKOActivityIndicatorViewSPMDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED13B50E26FF5E2A00F8D697 /* Build configuration list for PBXNativeTarget "NKOActivityIndicatorViewSPMDemoTests" */;
+			buildPhases = (
+				ED13B4F326FF5E2A00F8D697 /* Sources */,
+				ED13B4F426FF5E2A00F8D697 /* Frameworks */,
+				ED13B4F526FF5E2A00F8D697 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED13B4F926FF5E2A00F8D697 /* PBXTargetDependency */,
+			);
+			name = NKOActivityIndicatorViewSPMDemoTests;
+			productName = NKOActivityIndicatorViewSPMDemoTests;
+			productReference = ED13B4F726FF5E2A00F8D697 /* NKOActivityIndicatorViewSPMDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED13B50126FF5E2A00F8D697 /* NKOActivityIndicatorViewSPMDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED13B51126FF5E2A00F8D697 /* Build configuration list for PBXNativeTarget "NKOActivityIndicatorViewSPMDemoUITests" */;
+			buildPhases = (
+				ED13B4FE26FF5E2A00F8D697 /* Sources */,
+				ED13B4FF26FF5E2A00F8D697 /* Frameworks */,
+				ED13B50026FF5E2A00F8D697 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED13B50426FF5E2A00F8D697 /* PBXTargetDependency */,
+			);
+			name = NKOActivityIndicatorViewSPMDemoUITests;
+			productName = NKOActivityIndicatorViewSPMDemoUITests;
+			productReference = ED13B50226FF5E2A00F8D697 /* NKOActivityIndicatorViewSPMDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED13B4D926FF5E2900F8D697 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					ED13B4E026FF5E2900F8D697 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					ED13B4F626FF5E2A00F8D697 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = ED13B4E026FF5E2900F8D697;
+					};
+					ED13B50126FF5E2A00F8D697 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = ED13B4E026FF5E2900F8D697;
+					};
+				};
+			};
+			buildConfigurationList = ED13B4DC26FF5E2900F8D697 /* Build configuration list for PBXProject "NKOActivityIndicatorViewSPMDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED13B4D826FF5E2900F8D697;
+			packageReferences = (
+				EDB6BC64277ED06400464A83 /* XCRemoteSwiftPackageReference "NKOActivityIndicatorView" */,
+			);
+			productRefGroup = ED13B4E226FF5E2900F8D697 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED13B4E026FF5E2900F8D697 /* NKOActivityIndicatorViewSPMDemo */,
+				ED13B4F626FF5E2A00F8D697 /* NKOActivityIndicatorViewSPMDemoTests */,
+				ED13B50126FF5E2A00F8D697 /* NKOActivityIndicatorViewSPMDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED13B4DF26FF5E2900F8D697 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED13B4F126FF5E2A00F8D697 /* LaunchScreen.storyboard in Resources */,
+				ED13B4EE26FF5E2A00F8D697 /* Assets.xcassets in Resources */,
+				ED13B4EC26FF5E2900F8D697 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED13B4F526FF5E2A00F8D697 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED13B50026FF5E2A00F8D697 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED13B4DD26FF5E2900F8D697 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED13B4E926FF5E2900F8D697 /* ViewController.swift in Sources */,
+				ED13B4E526FF5E2900F8D697 /* AppDelegate.swift in Sources */,
+				ED13B4E726FF5E2900F8D697 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED13B4F326FF5E2A00F8D697 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED13B4FE26FF5E2A00F8D697 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED13B50726FF5E2A00F8D697 /* NKOActivityIndicatorViewSPMDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED13B4F926FF5E2A00F8D697 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED13B4E026FF5E2900F8D697 /* NKOActivityIndicatorViewSPMDemo */;
+			targetProxy = ED13B4F826FF5E2A00F8D697 /* PBXContainerItemProxy */;
+		};
+		ED13B50426FF5E2A00F8D697 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED13B4E026FF5E2900F8D697 /* NKOActivityIndicatorViewSPMDemo */;
+			targetProxy = ED13B50326FF5E2A00F8D697 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED13B4EA26FF5E2900F8D697 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED13B4EB26FF5E2900F8D697 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED13B4EF26FF5E2A00F8D697 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED13B4F026FF5E2A00F8D697 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED13B50926FF5E2A00F8D697 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED13B50A26FF5E2A00F8D697 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED13B50C26FF5E2A00F8D697 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YE754YUBD2;
+				INFOPLIST_FILE = NKOActivityIndicatorViewSPMDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.madhikarma.NKOActivityIndicatorViewSPMDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED13B50D26FF5E2A00F8D697 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YE754YUBD2;
+				INFOPLIST_FILE = NKOActivityIndicatorViewSPMDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.madhikarma.NKOActivityIndicatorViewSPMDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ED13B50F26FF5E2A00F8D697 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YE754YUBD2;
+				INFOPLIST_FILE = NKOActivityIndicatorViewSPMDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.madhikarma.NKOActivityIndicatorViewSPMDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NKOActivityIndicatorViewSPMDemo.app/NKOActivityIndicatorViewSPMDemo";
+			};
+			name = Debug;
+		};
+		ED13B51026FF5E2A00F8D697 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YE754YUBD2;
+				INFOPLIST_FILE = NKOActivityIndicatorViewSPMDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.madhikarma.NKOActivityIndicatorViewSPMDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NKOActivityIndicatorViewSPMDemo.app/NKOActivityIndicatorViewSPMDemo";
+			};
+			name = Release;
+		};
+		ED13B51226FF5E2A00F8D697 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YE754YUBD2;
+				INFOPLIST_FILE = NKOActivityIndicatorViewSPMDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.madhikarma.NKOActivityIndicatorViewSPMDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NKOActivityIndicatorViewSPMDemo;
+			};
+			name = Debug;
+		};
+		ED13B51326FF5E2A00F8D697 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YE754YUBD2;
+				INFOPLIST_FILE = NKOActivityIndicatorViewSPMDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.madhikarma.NKOActivityIndicatorViewSPMDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NKOActivityIndicatorViewSPMDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED13B4DC26FF5E2900F8D697 /* Build configuration list for PBXProject "NKOActivityIndicatorViewSPMDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED13B50926FF5E2A00F8D697 /* Debug */,
+				ED13B50A26FF5E2A00F8D697 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED13B50B26FF5E2A00F8D697 /* Build configuration list for PBXNativeTarget "NKOActivityIndicatorViewSPMDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED13B50C26FF5E2A00F8D697 /* Debug */,
+				ED13B50D26FF5E2A00F8D697 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED13B50E26FF5E2A00F8D697 /* Build configuration list for PBXNativeTarget "NKOActivityIndicatorViewSPMDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED13B50F26FF5E2A00F8D697 /* Debug */,
+				ED13B51026FF5E2A00F8D697 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED13B51126FF5E2A00F8D697 /* Build configuration list for PBXNativeTarget "NKOActivityIndicatorViewSPMDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED13B51226FF5E2A00F8D697 /* Debug */,
+				ED13B51326FF5E2A00F8D697 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EDB6BC64277ED06400464A83 /* XCRemoteSwiftPackageReference "NKOActivityIndicatorView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/madhikarma/NKOActivityIndicatorView";
+			requirement = {
+				kind = revision;
+				revision = 31015e83653f46b7dbb0a89746880287973717e0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EDB6BC65277ED06400464A83 /* NKOActivityIndicatorView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EDB6BC64277ED06400464A83 /* XCRemoteSwiftPackageReference "NKOActivityIndicatorView" */;
+			productName = NKOActivityIndicatorView;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = ED13B4D926FF5E2900F8D697 /* Project object */;
+}
